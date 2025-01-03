@@ -1,0 +1,6 @@
+flutter clean
+flutter pub get 
+flutter run
+
+debug token
+infinix   0def4d0a-ebed-4239-b572-082797d2d1ea

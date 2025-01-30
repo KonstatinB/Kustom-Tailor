@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    rootObject = 1D6058940D05DD3D006BFB54 /* Project object */;
+    
+    objects = {
+        
+        1D6058940D05DD3D006BFB54 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 1300;
+            };
+            buildConfigurationList = 1D6058A60D05DD3D006BFB54 /* Build configuration list */;
+            compatibilityVersion = "Xcode 9.3";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+            );
+            mainGroup = 1D60589E0D05DD3D006BFB54 /* Main Group */;
+            targets = (
+                1D60589A0D05DD3D006BFB54 /* Runner */,
+            );
+        };
+        
+        1D60589A0D05DD3D006BFB54 /* Runner */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 1D6058A60D05DD3D006BFB54 /* Build configuration list */;
+            buildPhases = (
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = Runner;
+            productName = Runner;
+            productReference = 1D60589C0D05DD3D006BFB54 /* Runner.app */;
+            productType = "com.apple.product-type.application";
+        };
+
+        1D6058A60D05DD3D006BFB54 /* Build configuration list */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                1D6058A80D05DD3D006BFB54 /* Debug */,
+                1D6058A90D05DD3D006BFB54 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+
+        1D6058A80D05DD3D006BFB54 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                DEVELOPMENT_TEAM = "";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.myapp";
+                SDKROOT = iphoneos;
+            };
+            name = Debug;
+        };
+
+        1D6058A90D05DD3D006BFB54 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                DEVELOPMENT_TEAM = "";
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.myapp";
+                SDKROOT = iphoneos;
+            };
+            name = Release;
+        };
+
+    };
+}
